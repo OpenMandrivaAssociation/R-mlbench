@@ -2,13 +2,13 @@
 %global rlibdir  %{_libdir}/R/library
 
 Name:             R-%{packname}
-Version:          2.1_0
+Version:          2.1.1
 Release:          1
 Summary:          Machine Learning Benchmark Problems
 Group:            Sciences/Mathematics
 License:          GPL-2
 URL:              http://cran.r-project.org/web/packages/%{packname}/index.html
-Source0:          http://cran.r-project.org/src/contrib/%{packname}_2.1-0.tar.gz
+Source0:          http://cran.r-project.org/src/contrib/mlbench_2.1-1.tar.gz
 Requires:         R-lattice 
 BuildRequires:    R-devel Rmath-devel texlive-collection-latex 
 BuildRequires:    R-lattice 
@@ -44,11 +44,3 @@ rm -f %{buildroot}%{rlibdir}/R.css
 %{rlibdir}/%{packname}/data
 %{rlibdir}/%{packname}/help
 %{rlibdir}/%{packname}/libs
-
-
-%changelog
-* Fri Feb 17 2012 Paulo Andrade <pcpa@mandriva.com.br> 2.1_0-1
-+ Revision: 775867
-- Import R-mlbench
-- Import R-mlbench
-
