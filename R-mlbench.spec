@@ -3,7 +3,7 @@
 
 Name:             R-%{packname}
 Version:          2.1.1
-Release:          1
+Release:          2
 Summary:          Machine Learning Benchmark Problems
 Group:            Sciences/Mathematics
 License:          GPL-2
